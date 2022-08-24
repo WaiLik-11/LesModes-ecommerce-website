@@ -1,9 +1,18 @@
 import React from 'react'
-import Navbar from '../components/Navbar';
+import { Navbar, Announcement, Slider, Categories, Products, News, Footer } from '../components';
+
 
 const Home = () => {
     return (
-        <div><Navbar /></div>
+        <div>
+            <Announcement />
+            <Navbar />
+            <Slider />
+            <Categories />
+            <Products />
+            <News />
+            <Footer />
+        </div>
     );
 };
 
